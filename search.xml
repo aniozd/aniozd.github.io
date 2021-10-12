@@ -3,16 +3,14 @@
   <entry>
     <title>2021.10.10每日总结</title>
     <url>/2021/10/11/2021-10-10%E6%AF%8F%E6%97%A5%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<p>##概述</p>
-<ul>
+    <content><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><ul>
 <li>利用HEXO构建网站以及发布到GitHub</li>
 <li>LeetCode周赛</li>
 <li>Plan<br>&nbsp;</li>
 </ul>
 <span id="more"></span>
 
-<p>##利用HEXO构建网站以及发布到GitHub</p>
-<ol>
+<h2 id="利用HEXO构建网站以及发布到GitHub"><a href="#利用HEXO构建网站以及发布到GitHub" class="headerlink" title="利用HEXO构建网站以及发布到GitHub"></a>利用HEXO构建网站以及发布到GitHub</h2><ol>
 <li>下载Git和node.js<br>&nbsp;</li>
 <li>npm install hexo -g 安装hexo<br>PS:npm的全称是Node Package Manager，是随同NodeJS一起安装的包管理和分发工具，它很方便让JavaScript开发者下载、安装、上传以及管理已经安装的包。<br>&nbsp;</li>
 <li>安装hexo依赖<br>命令：npm install –save hexo-deployer-git<br>&nbsp;</li>
@@ -20,8 +18,7 @@
 <li>hexo new “postName” #新建文章<br>hexo new page “pageName” #新建页面<br>hexo generate #生成静态页面至public目录<br>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）<br>hexo deploy #部署到GitHub<br>hexo help  # 查看帮助<br>hexo version  #查看Hexo的版本</li>
 </ol>
 <p>&nbsp;</p>
-<p>##LeetCode周赛</p>
-<ol>
+<h2 id="LeetCode周赛"><a href="#LeetCode周赛" class="headerlink" title="LeetCode周赛"></a>LeetCode周赛</h2><ol>
 <li>至少在两个数组中出现的值</li>
 </ol>
 <p>给你三个整数数组 nums1、nums2 和 nums3 ，请你构造并返回一个 不同 数组，且由 至少 在 两个 数组中出现的所有值组成。数组中的元素可以按 任意 顺序排列。 </p>
@@ -65,8 +62,7 @@ int minimum() 返回股票 最低价格 。
 <figure class="highlight inform7"><table><tr><td class="code"><pre><span class="line">输入：nums = <span class="comment">[3,9,7,3]</span></span><br><span class="line">输出：2</span><br><span class="line">解释：最优分组方案是分成 <span class="comment">[3,9]</span> 和 <span class="comment">[7,3]</span> 。</span><br><span class="line">数组和之差的绝对值为 abs((3 + 9) - (7 + 3)) = 2 。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>这道题是一道困难题，没来得及看，以后补充。。。</p>
 <p>&nbsp;</p>
-<p>##Plan</p>
-<ul>
+<h2 id="Plan"><a href="#Plan" class="headerlink" title="Plan"></a>Plan</h2><ul>
 <li><p>我觉得还是得动动手开发C++服务器，所以就定个半个月到一个月的计划，B站学习C++服务器从零搭建<br><a href="https://www.bilibili.com/medialist/detail/ml1089073914?type=1&amp;spm_id_from=333.999.0.0">https://www.bilibili.com/medialist/detail/ml1089073914?type=1&amp;spm_id_from=333.999.0.0</a></p>
 </li>
 <li><p>虽然秋招结束也失败了，但也要好好复盘总结下，明天复盘这段时间的问题啥的</p>
@@ -76,8 +72,7 @@ int minimum() 返回股票 最低价格 。
 <li><p>优化博客</p>
 </li>
 </ul>
-<p>##发现</p>
-<ul>
+<h2 id="发现"><a href="#发现" class="headerlink" title="发现"></a>发现</h2><ul>
 <li>hexo安装教程 <a href="https://www.cnblogs.com/chenlove/p/15058170.html">https://www.cnblogs.com/chenlove/p/15058170.html</a></li>
 <li>hexo优化配置博客  <a href="https://tding.top/archives/aad98408.html">https://tding.top/archives/aad98408.html</a></li>
 <li>MarkDown写作基础教程  <a href="https://www.jianshu.com/p/q81RER/">https://www.jianshu.com/p/q81RER/</a></li>
@@ -91,35 +86,42 @@ int minimum() 返回股票 最低价格 。
       </tags>
   </entry>
   <entry>
-    <title>Frist-Blog</title>
-    <url>/2021/10/10/Frist-Blog/</url>
-    <content><![CDATA[<p>Test–Blog</p>
-<span id="more"></span>]]></content>
+    <title>2021.10.11-12每日总结</title>
+    <url>/2021/10/13/2021-10-11-12%E6%AF%8F%E6%97%A5%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h3 id="hexo博客配置和美化主题"><a href="#hexo博客配置和美化主题" class="headerlink" title="hexo博客配置和美化主题"></a>hexo博客配置和美化主题</h3><p>主要看的这篇博客：</p>
+<blockquote>
+<p><a href="https://blog.csdn.net/weixin_41024483/article/details/104801164?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.no_search_link&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/weixin_41024483/article/details/104801164?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.no_search_link&amp;spm=1001.2101.3001.4242</a></p>
+</blockquote>
+<p>&nbsp;<br>博客也基本算是配置的七七八八，不是很酷炫但基本能用<br>&nbsp;</p>
+<span id="more"></span>
+
+<h3 id="八股文"><a href="#八股文" class="headerlink" title="八股文"></a>八股文</h3><p>八股文看的比较少</p>
+<p>了解下socket的过程以及IO复用</p>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line"><span class="keyword">socket</span> 过程</span><br><span class="line">（<span class="number">1</span>）服务器根据地址类型（ ipv4, ipv6 ）、 <span class="keyword">socket</span> 类型、协议创建 <span class="keyword">socket</span>。</span><br><span class="line"></span><br><span class="line">（<span class="number">2</span>）服务器为 <span class="keyword">socket</span> 绑定 IP 地址和端口号。</span><br><span class="line"></span><br><span class="line">（<span class="number">3</span>）服务器 <span class="keyword">socket</span> 监听端口号请求，随时准备接收客户端发来的连接，这时候服务器的<span class="keyword">socket</span> 并没有被打开 。</span><br><span class="line"></span><br><span class="line">（<span class="number">4</span>）客户端创建 <span class="keyword">socket</span>。</span><br><span class="line"></span><br><span class="line">（<span class="number">5</span>）客户端打开 <span class="keyword">socket</span>，根据服务器 IP 地址和端口号试图连接服务器 <span class="keyword">socket</span>。</span><br><span class="line"></span><br><span class="line">（<span class="number">6</span>）服务器 <span class="keyword">socket</span> 接收到客户端 <span class="keyword">socket</span> 请求，被动打开，开始接收客户端请求，直到客户端返回连接信息 。这时候 <span class="keyword">socket</span> 进入阻塞状态，所谓阻塞即<span class="keyword">accept</span>（）方法一直到客户端返回连接信息后才返回，开始接收下一个客户端连接请求 。</span><br><span class="line"></span><br><span class="line">（<span class="number">7</span>）客户端连接成功，向服务器发送连接状态信息 。</span><br><span class="line"></span><br><span class="line">（<span class="number">8</span>）服务器 <span class="keyword">accept</span> 方法返回，连接成功 。</span><br><span class="line"></span><br><span class="line">（<span class="number">9</span>）客户端向 <span class="keyword">socket</span> 写入信息 。</span><br><span class="line"></span><br><span class="line">（<span class="number">10</span>）服务器读取信息 。</span><br><span class="line"></span><br><span class="line">（<span class="number">11</span>）客户端关闭 。</span><br><span class="line"></span><br><span class="line">（<span class="number">12</span>）服务器端关闭 。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>IO复用</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">一句话解释：单线程或单进程同时监测若干个文件描述符是否可以执行IO操作的能力。</span><br><span class="line"></span><br><span class="line">IO多路复用解决的本质问题是在用更少的资源完成更多的事。</span><br><span class="line"></span><br><span class="line">目前Linux系统中提供了5种IO处理模型</span><br><span class="line"></span><br><span class="line">阻塞IO</span><br><span class="line">非阻塞IO</span><br><span class="line">IO多路复用</span><br><span class="line">信号驱动IO</span><br><span class="line">异步IO</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="复盘"><a href="#复盘" class="headerlink" title="复盘"></a>复盘</h3><p>先贴一些之前记录的，明天再完善</p>
+<p>c++内存如何分配<br>new的对象可以用free释放吗<br>new与malloc的区别<br>内存泄漏含义如何解决<br>智能指针<br>解决内存泄漏的方法原理<br>内存溢出了解吗<br>stl说一下<br>操作系统进程崩溃怎么解决  </p>
+<p>空类大小为什么为1<br>游戏世界窗口怎么实现<br>微信消息撤回怎么实现  </p>
+<p>输入url后的过程以及用到的协议<br>非递归后续遍历<br>n个人，至少两个人的同一个生日的概率<br>多人访问网站最先出现的问题  </p>
+<p>…….</p>
+<h3 id="C-服务器开发"><a href="#C-服务器开发" class="headerlink" title="C++服务器开发"></a>C++服务器开发</h3><p>看了B站教程的第一节 日志开发</p>
+<h3 id="Plan"><a href="#Plan" class="headerlink" title="Plan"></a>Plan</h3><ul>
+<li>看完服务器开发的日志开发并记录</li>
+<li>八股文</li>
+<li>速游笔试</li>
+<li>写写题保持手感</li>
+<li>投简历 实习/工作</li>
+<li>完善复盘</li>
+</ul>
+]]></content>
       <categories>
-        <category>blog</category>
+        <category>总结</category>
       </categories>
       <tags>
-        <tag>随笔</tag>
+        <tag>日结</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/10/09/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><span id="more"></span>
-
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>
